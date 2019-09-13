@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/x0">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:hint="@string/gamer1"
+        android:id="@+id/nume1"
+        android:layout_marginTop="139dp"
+        android:layout_below="@+id/welcome"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startGame"
+        android:onClick="startGameFunction"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/nume2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:hint="@string/gamer2"
+        android:id="@+id/nume2"
+        android:layout_below="@+id/nume1"
+        android:layout_alignLeft="@+id/nume1"
+        android:layout_alignStart="@+id/nume1" />
+
+
+</RelativeLayout>

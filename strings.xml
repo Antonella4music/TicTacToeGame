@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Jocul X si 0</string>
+    <string name="toolbarTitle">Jocul X si 0</string>
+    <string name="restartGame">Reincepe jocul</string>
+    <string name="exitGame">Iesire din joc</string>
+    <string name="gamer1">Jucator1</string>
+    <string name="gamer2">Jucator2</string>
+    <string name="startGame">Incepe jocul!</string>
+    <string name="versus">VS</string>
+
+</resources>
